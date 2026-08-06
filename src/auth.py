@@ -1,6 +1,6 @@
 from sqlalchemy import text
-from ..database.conexion import engine
-def validar_login(pin):
+
+from database.conexion import enginedef validar_login(pin):
     """
     Verifica si el PIN existe y está activo.
     Retorna el diccionario con datos del usuario o None.
