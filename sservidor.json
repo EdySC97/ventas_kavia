@@ -1,0 +1,26 @@
+{
+    "Servers": {
+        "1": {
+            "Name": "dannys",
+            "Group": "dannys_burger",
+            "Host": "Localhost",
+            "Port": 5432,
+            "MaintenanceDB": "postgres",
+            "Username": "postgres",
+            "DBRestrictionType": "databases",
+            "BGColor": "#000000",
+            "FGColor": "#FF0000",
+            "UseSSHTunnel": 0,
+            "TunnelPort": "22",
+            "TunnelAuthentication": 0,
+            "TunnelPromptPassword": 0,
+            "TunnelKeepAlive": 0,
+            "KerberosAuthentication": false,
+            "ConnectionParameters": {
+                "sslmode": "prefer",
+                "connect_timeout": 10
+            },
+            "Tags": []
+        }
+    }
+}
