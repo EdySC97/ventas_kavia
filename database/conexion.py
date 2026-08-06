@@ -10,9 +10,9 @@ os.environ["PGCLIENTENCODING"] = "utf-8"
 # ==========================================
 USER = "postgres"
 PASSWORD = "S6363cf5"
-HOST = "localhost"
+HOST = "db.jfjlasaxvictckwwzbqv.supabase.co"
 PORT = "5432"
-DB_NAME = "dannys_server"  # <-- ¡El nombre real de tu base de datos!
+DB_NAME = "postgres"  # <-- ¡El nombre real de tu base de datos!
 
 # ==========================================
 # 2. URL Y MOTOR DE SQLALCHEMY
