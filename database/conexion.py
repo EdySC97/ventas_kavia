@@ -19,7 +19,7 @@ DB_NAME = "dannys_server"  # <-- ¡El nombre real de tu base de datos!
 # ==========================================
 # Usamos quote_plus por seguridad y el driver psycopg2 que ya está instalado
 password_segura = quote_plus(PASSWORD)
-DATABASE_URL = f"postgresql+psycopg2://{USER}:{password_segura}@{HOST}:{PORT}/{DB_NAME}"
+DATABASE_URL = "postgresql://postgres:S6363cf59710@db.jfjlasaxvictckwwzbqv.supabase.co:5432/postgres"
 
 # Creamos el motor de SQLAlchemy
 engine = create_engine(
